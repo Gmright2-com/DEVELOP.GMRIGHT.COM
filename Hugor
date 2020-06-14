@@ -1,0 +1,41 @@
+BitbucketID = "your_bitbucket_id"
+  CodepenID = "your_codepen"
+  CvURL = "your_cv_url"
+  Email = "your_email"
+  FacebookID = "your_facebook"
+  GithubID = "your_github"
+  GitlabId = "your_gitlab"
+  GnuPGFingerprint = "your_gpg_fingerprint"
+  GoogleAnalytics = "your_google_analytics_id"
+  GoogleplusID = "your_googleplus"
+  InstagramID = "your_instagram"
+  LinkedInID = "your_linkedin"
+  MastodonURL = "your_mastodon_profile"
+  Mobile = "+1-201-555-0123"
+  PayPalMeID = "https://www.paypal.me/..."
+  Phone = "+1-201-555-0123"
+  RedditID = "your_reddit"
+  SlackURL = "https://join.slack.com/..."
+  StackExchangeID = "your_stackexchange_id"
+  StackOverflowID = "your_stackoverflow_id"
+  TelegramID = "your_telegram"
+  TwitterID = "your_twitter"
+  XingURL = "https://www.xing.com/profile/..."
+
+[menu]
+  [[menu.header]]
+    identifier = "post"
+    name = "posts"
+    weight = 0
+  [[menu.header]]
+    parent = "post"
+    name = "All Posts"
+    url = "/posts"
+  [[menu.header]]
+    parent = "post"
+    name = "categories"
+    url = "/categories"
+  [[menu.header]]
+    parent = "post"
+    name = "tags"
+    url = "/tags"
